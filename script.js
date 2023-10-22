@@ -4,6 +4,7 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// Your Firebase configuration here
 const firebaseConfig = {
     apiKey: "AIzaSyC5zupnLXBgT5sOhh8-yAgGUOgvmpTMGFc",
     authDomain: "pspark-34dc3.firebaseapp.com",
@@ -17,7 +18,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 // Add an event listener to handle user login
 document.getElementById('login-button').addEventListener('click', () => {
