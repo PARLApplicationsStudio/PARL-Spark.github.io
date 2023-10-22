@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
-import "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js"; // Add this line to import the authentication module
+const { initializeApp } = require("https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js");
+const { getAnalytics } = require("https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js");
+require("https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js");
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
