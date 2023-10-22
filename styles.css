@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Google Sans';
+    src: url('https://fonts.gstatic.com/s/googlesans/v14/4UabrENHsxJlGDuGo1OIlLU94YtzCwY.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Google Sans', sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.centered-content {
+    max-width: 400px;
+    animation: fadeIn 1.5s ease;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.logo {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    margin: 10px 0;
+}
+
+.material-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Google Sans', sans-serif;
+}
+
+.login-button {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    height: 50px;
+    font-family: 'Google Sans', sans-serif;
+}
+
+.gray-text {
+    color: #888;
+    font-size: 14px;
+}
+
+.learn-more-link {
+    text-decoration: underline;
+    color: #888;
+}
