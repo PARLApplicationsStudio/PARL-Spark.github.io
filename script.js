@@ -1,7 +1,7 @@
 // Import the functions you need from the SDKs you need
-const { initializeApp } = require("https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js");
-const { getAnalytics } = require("https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js");
-require("https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js");
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-analytics.js";
+import "https://www.gstatic.com/firebasejs/10.5.0/firebase-auth.js";
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -26,7 +26,7 @@ document.getElementById('login-button').addEventListener('click', () => {
   const password = document.getElementById('password').value;
 
   // Sign in with email and password
-  firebase.auth().signInWithEmailAndPassword(email, password) // Fix the method name
+  firebase.auth().signInWithEmailAndPassword(email, password)
     .then((userCredential) => {
       // User signed in successfully
       const user = userCredential.user;
