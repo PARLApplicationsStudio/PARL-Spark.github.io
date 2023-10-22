@@ -1,10 +1,11 @@
 const firebaseConfig = {
     apiKey: "AIzaSyC5zupnLXBgT5sOhh8-yAgGUOgvmpTMGFc",
     authDomain: "pspark-34dc3.firebaseapp.com",
+    databaseURL: "https://pspark-34dc3-default-rtdb.firebaseio.com",
     projectId: "pspark-34dc3",
     storageBucket: "pspark-34dc3.appspot.com",
     messagingSenderId: "905920434441",
-    appId: "1:905920434441:web:27dfe76c45c1eaa40243d8"
+    appId: "1:905920434441:web:27dfe76c45c1eaa40243d8",
 };
 
 // Initialize Firebase
